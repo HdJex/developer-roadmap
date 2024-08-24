@@ -2431,7 +2431,7 @@
       },
       "selected": false,
       "data": {
-        "label": "Properties Binding",
+        "label": "Property Binding",
         "style": {
           "fontSize": 17,
           "justifyContent": "flex-start",
@@ -2463,7 +2463,7 @@
       },
       "selected": false,
       "data": {
-        "label": "Attributes Binding",
+        "label": "Attribute Binding",
         "style": {
           "fontSize": 17,
           "justifyContent": "flex-start",
@@ -2494,7 +2494,7 @@
       },
       "selected": false,
       "data": {
-        "label": "Events",
+        "label": "Event Binding",
         "style": {
           "fontSize": 17,
           "justifyContent": "flex-start",
@@ -3155,38 +3155,6 @@
       "selectable": true,
       "focusable": true,
       "dragging": false
-    },
-    {
-      "id": "mRB-0CRdGwvxPqZbz08yj",
-      "type": "subtopic",
-      "position": {
-        "x": -514.5993272119424,
-        "y": 848.2304293708296
-      },
-      "selected": false,
-      "data": {
-        "label": "@else if",
-        "style": {
-          "fontSize": 17,
-          "justifyContent": "flex-start",
-          "textAlign": "center"
-        }
-      },
-      "zIndex": 999,
-      "width": 166,
-      "height": 49,
-      "style": {
-        "width": 166,
-        "height": 49
-      },
-      "positionAbsolute": {
-        "x": -514.5993272119424,
-        "y": 848.2304293708296
-      },
-      "dragging": false,
-      "selectable": true,
-      "focusable": true,
-      "resizing": false
     },
     {
       "id": "kGzlumFdZFxTRZ3HnCGFO",
