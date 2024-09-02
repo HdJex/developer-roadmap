@@ -1841,7 +1841,7 @@
   },
   "rxzcAzHjzIc9lkWSw0fef": {
     "title": "VirusTotal",
-    "description": "",
+    "description": "VirusTotal's main feature is multi-scanning using over 70 antivirus scanners to generate a cumulative report on whether a file is malicious. It also stores file hashes, eliminating the need to rescan previously uploaded files. Researchers can comment in the community, sharing their analysis and insights into malware for others to benefit from.\n\nVirusTotal's aggregated data comes from various antivirus engines, website scanners, file and URL analysis tools, and user contributions. These tools serve diverse purposes, including heuristic engines, known-bad signatures, metadata extraction, and identification of malicious signals.\n\nAdditionally, VirusTotal offers services to search by file hash, IP address, and URL, which are also scanned. For more comprehensive features, VirusTotal provides Premium services such as Intelligence & Hunting.\n\nVisit the following resources to learn more:",
     "links": []
   },
   "h__KxKa0Q74_egY7GOe-L": {
@@ -2106,8 +2106,19 @@
   },
   "LfWJJaT3fv0p6fUeS8b84": {
     "title": "Deauth Attack",
-    "description": "",
-    "links": []
+    "description": "A Deauthentication (Deauth) Attack is a type of denial-of-service (DoS) attack specific to wireless networks. It involves sending fake deauthentication frames to a Wi-Fi client or access point, forcing the client to disconnect from the network. The attacker uses this technique to disrupt the communication between the client and the access point, often with the intention of capturing data, launching further attacks, or simply causing disruption.\n\nVisit the following resources to learn more:",
+    "links": [
+      {
+        "title": "Wi-Fi Deauthentication Attack",
+        "url": "https://medium.com/@balaramapunna123/wi-fi-deauthentication-attack-76cdd91d5fc",
+        "type": "article"
+      },
+      {
+        "title": "Deauthentication Attacks",
+        "url": "https://www.baeldung.com/cs/deauthentication-attacks",
+        "type": "article"
+      }
+    ]
   },
   "u4hySof6if5hiONSaW-Uf": {
     "title": "VLAN Hopping",
@@ -2116,12 +2127,18 @@
   },
   "Ee7LfbhwJbiWjJ3b_bbni": {
     "title": "Rogue Access Point",
-    "description": "",
-    "links": []
+    "description": "A Rogue Access Point (Rogue AP) is an unauthorized wireless access point installed on a secure network without the network administrator's knowledge or consent. These devices can be set up by malicious actors to intercept, steal, or manipulate network traffic, or by employees who unintentionally compromise network security by setting up their own wireless access points.\n\nVisit the following resources to learn more:",
+    "links": [
+      {
+        "title": "Rogue access points",
+        "url": "https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:online-data-security/xcae6f4a7ff015e7d:cyber-attacks/a/rogue-access-points-mitm-attacks",
+        "type": "article"
+      }
+    ]
   },
   "n8ZOZxNhlnw7DpzoXe_f_": {
     "title": "Buffer Overflow",
-    "description": "",
+    "description": "A Buffer Overflow is a type of vulnerability that occurs when a program or process attempts to write more data to a buffer—a temporary storage area in memory—than it can hold. This overflow can cause the extra data to overwrite adjacent memory locations, potentially leading to unintended behavior, crashes, or security breaches.\n\nVisit the following resources to learn more:",
     "links": []
   },
   "nOND14t7ISgSH3zNpV3F8": {
@@ -2168,8 +2185,14 @@
   },
   "mIX8PsIGuwgPCGQZ6ok2H": {
     "title": "Replay Attack",
-    "description": "",
-    "links": []
+    "description": "A Replay Attack is a type of network attack where an attacker intercepts and retransmits legitimate communication data, often with the aim of gaining unauthorized access to a system or performing unauthorized actions. In this attack, the attacker captures a valid data transmission and then \"replays\" it later, without needing to decrypt or alter the data, to trick the recipient into thinking it's a legitimate request.\n\nVisit the following resources to learn more:",
+    "links": [
+      {
+        "title": "What Is a Replay Attack?",
+        "url": "https://usa.kaspersky.com/resource-center/definitions/replay-attack",
+        "type": "article"
+      }
+    ]
   },
   "sMuKqf27y4iG0GrCdF5DN": {
     "title": "Pass the Hash",
@@ -2178,13 +2201,55 @@
   },
   "L0ROYh2DNlkybNDO2ezJY": {
     "title": "Directory Traversal",
-    "description": "",
-    "links": []
+    "description": "Directory Traversal, also known as Path Traversal, is a vulnerability that allows attackers to read files on a system without proper authorization. These attacks typically exploit unsecured paths using \"../\" (dot-dot-slash) sequences and their variations, or absolute file paths. The attack is also referred to as \"dot-dot-slash,\" \"directory climbing,\" or \"backtracking.\"\n\nWhile Directory Traversal is sometimes combined with other vulnerabilities like Local File Inclusion (LFI) or Remote File Inclusion (RFI), the key difference is that Directory Traversal doesn't execute code, whereas LFI and RFI usually do.\n\nVisit the following resources to learn more:",
+    "links": [
+      {
+        "title": "TryHackMe's room on Path Traversal & File Inclusion",
+        "url": "https://tryhackme.com/r/room/filepathtraversal",
+        "type": "course"
+      },
+      {
+        "title": "HackTheBox Academy's module on File Inclusion & Path Traversal",
+        "url": "https://academy.hackthebox.com/course/preview/file-inclusion",
+        "type": "course"
+      },
+      {
+        "title": "Portswigger's guide on File Path Traversal",
+        "url": "https://portswigger.net/web-security/file-path-traversal",
+        "type": "article"
+      },
+      {
+        "title": "OWASP's article on Path Traversal",
+        "url": "https://owasp.org/www-community/attacks/Path_Traversal",
+        "type": "article"
+      },
+      {
+        "title": "Acunetix's article on directory traversal",
+        "url": "https://www.acunetix.com/websitesecurity/directory-traversal/",
+        "type": "article"
+      }
+    ]
   },
   "lv6fI3WeJawuCbwKtMRIh": {
     "title": "Stakeholders",
-    "description": "",
-    "links": []
+    "description": "Stakeholders are individuals or organizations with a right, share, claim, or interest in a system or its characteristics that meet their needs and expectations.\n\n### External Stakeholders:\n\n*   Government agencies\n*   Policy regulators\n*   Partners\n*   Suppliers\n\n### Internal Stakeholders:\n\n*   Subject matter experts\n*   Legal\n*   Compliance\n*   Senior management\n\nStakeholders vary based on the organization, making their identification essential. They must be notified according to the organization's playbook for escalating problems and providing updates. Not all stakeholders are equal, some may require a less technical report highlighting the main points, while others will need a full technical report.\n\nVisit the following resources to learn more:",
+    "links": [
+      {
+        "title": "TryHackMe room on Cyber Governance and regulation",
+        "url": "https://tryhackme.com/r/room/cybergovernanceregulation",
+        "type": "course"
+      },
+      {
+        "title": "NIST Publication on Engineering Trustworthy Secure Systems",
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160v1r1.pdf",
+        "type": "article"
+      },
+      {
+        "title": "NIST Glossary",
+        "url": "https://csrc.nist.gov/glossary/term/stakeholder",
+        "type": "article"
+      }
+    ]
   },
   "05tH6WhToC615JTFN-TPc": {
     "title": "HR",
